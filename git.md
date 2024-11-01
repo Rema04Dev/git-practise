@@ -1,1 +1,2 @@
 - git config --local --list
+- git add .
