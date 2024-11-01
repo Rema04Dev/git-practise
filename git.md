@@ -1,3 +1,4 @@
 - git config --local --list
 - git add .
 - git rebase
+- git remote -v
