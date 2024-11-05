@@ -26,6 +26,7 @@ button {
 
 ul {
   list-style: none;
+  padding: 0;
 }
 
 .container {
@@ -134,6 +135,31 @@ body {
   margin: 150px auto;
 }
 
+/* assortment */
+
+.assortment {
+  margin-bottom: 150px;
+}
+
+.assortment__list {
+  text-align: center;
+  display: flex;
+  gap: 0 40px;
+}
+
+.assortment__img {
+  max-width: 208px;
+  max-height: 208px;
+  width: 100%;
+}
+
+.assortment__name {
+  padding-top: 10px;
+  font-family: "Cormorant", serif;
+  font-size: 24px;
+  font-weight: 400;
+}
+
 @media (max-width: 1000px) {
   .user-actions__item-search {
     margin-left: 30px;
@@ -154,6 +180,14 @@ body {
   .blockquote__text {
     margin-top: 120px;
     margin-bottom: 135px;
+  }
+
+  .assortment {
+    margin-bottom: 120px;
+  }
+
+  .assortment__list {
+    gap: 0;
   }
 }
 
@@ -191,6 +225,11 @@ body {
 
   .blockquote__text {
     max-width: 640px;
+  }
+
+  .assortment__list {
+    flex-wrap: wrap;
+    justify-content: center;
   }
 }
 
